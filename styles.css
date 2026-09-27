@@ -1,0 +1,465 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cuerpo {
+    /* margin: auto 9%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 15px 20px 15px 36px;
+    background-color: rgb(30, 60, 32);
+    color: white;
+}
+
+.marca {
+    color: rgb(172, 215, 183);
+}
+
+.opciones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 17px;
+}
+
+.menu {
+    font-size: 13px;
+}
+
+.boton1 button {
+    background-color: rgb(168, 212, 168);
+    color: rgb(20, 64, 26);
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+}
+
+.segundoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 100px 35px;
+    background-color: rgb(97, 147, 82);
+    color: white;
+    text-align: center;
+}
+
+.segundoDiv img {
+    height: 65px;
+    width: 65px;
+    padding-bottom: 18px;
+}
+
+.segundoDiv h1 {
+    font-size: 40px;
+    padding: 13px 370px;
+}
+
+.segundoDiv p {
+    padding: 5px 330px;
+    padding-bottom: 20px;
+}
+
+.segundoDiv button {
+    background-color: white;
+    color: rgb(20, 64, 26);
+    padding: 9px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+}
+
+.divAgrupador {
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+}
+
+.tercerDiv {
+    padding: 0 55px;
+}
+
+.tercerDiv h4 {
+    padding-bottom: 50px;
+    color: rgb(28, 63, 44);
+    font-size: 25px;
+}
+
+.desc {
+    color: rgb(65, 122, 72);
+    padding-bottom: 10px;
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.texto {
+    color: black;
+    font-size: 11.5px;
+    line-height: 1.3;
+    padding-bottom: 70px;
+}
+
+.ofertas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.imagen2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(187, 214, 188);
+    padding: 15px 15px;
+}
+
+.reflexion {
+    background-color: rgb(242, 248, 238);
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+}
+
+.mensaje {
+    padding-left: 35px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.mensaje h3 {
+    flex-direction: column;
+    color: rgb(59, 124, 59);
+    font-size: 25px;
+}
+
+.letras {
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.fuente {
+    padding-top: 20px;
+    font-size: 14px;
+    color: rgb(59, 124, 59);
+}
+
+.reflexion img {
+    background-color: rgb(66, 116, 50);
+    border-radius: 20px;
+    width: 180px;
+    height: 210px;
+    padding: 15px 15px;
+}
+
+.seccion-cards h2 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 29px;
+    color: rgb(28, 59, 36);
+}
+
+.seccion-cards p {
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 60px;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    background-color: #f4f7f1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+    background-color: #d6e8ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: auto;
+    height: 90px;
+}
+
+.cuerpo-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-venta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuerpo-card button {
+    border: none;
+    background-color: rgb(170, 211, 165);
+    border-radius: 20px;
+    font-size: 10.5px;
+    padding: 4px 10px;
+    color: rgb(26, 54, 33);
+}
+
+.title {
+    color: rgb(26, 54, 33);
+    font-weight: bold;
+}
+
+.description {
+    font-size: 10.5px;
+    line-height: 1.5;
+}
+
+.btn button {
+    background-color: rgb(75, 125, 55);
+    color: white;
+    padding: 7px 12px;
+}
+
+.precio {
+    color: rgb(75, 125, 55);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.decision {
+    background-color: rgb(75, 133, 56);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.decision button {
+    border: none;
+    background-color: white;
+    padding: 12px 30px;
+    border-radius: 20px;
+    color: rgb(64, 107, 47);
+    ;
+}
+
+.decision h2 {
+    font-size: 27px;
+    padding-bottom: 14px;
+}
+
+.decision p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.ultima-seccion {
+    background-color: rgb(32, 60, 32);
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 360px 30px 280px;
+    line-height: 1.5;
+}
+
+.vivero {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.grupo {
+    display: flex;
+    gap: 155px;
+}
+
+.vivero-hojas h3 {
+    color: rgb(172, 215, 183);
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+
+.vivero-hojas p {
+    font-size: 13px;
+
+}
+
+.vivero h3 {
+    color: rgb(172, 215, 183);
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+
+.vivero p {
+    font-size: 13px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.creditos {
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
+
+@media (max-width: 1200px) {
+    .segundoDiv h1 {
+        padding: 13px 30px;
+    }
+
+    .segundoDiv p {
+        padding: 5px 40px 20px;
+    }
+
+    .divAgrupador {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .info {
+        padding: 30px 60px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .segundoDiv h1 {
+        font-size: 32px;
+        padding: 10px 20px;
+    }
+
+    .segundoDiv p {
+        padding: 5px 20px 20px;
+    }
+
+    .divAgrupador {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .ofertas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contenedor-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .info {
+        padding: 30px 30px;
+    }
+
+    .grupo {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .encabezado {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .opciones {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .divAgrupador {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ofertas {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .reflexion img {
+        display: none;
+    }
+
+    .mensaje {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .grupo {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .segundoDiv h1 {
+        font-size: 25px;
+        padding: 10px 5px;
+    }
+
+    .segundoDiv p {
+        font-size: 13px;
+        padding: 5px 5px 15px;
+    }
+
+    .tercerDiv h4 {
+        font-size: 20px;
+    }
+
+    .seccion-cards h2 {
+        font-size: 24px;
+    }
+
+    .decision h2 {
+        font-size: 22px;
+    }
+}
